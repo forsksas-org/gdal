@@ -1,0 +1,5 @@
+- ./configure --prefix=$HOME/gdal --without-python --with-geotiff=internal --with-png=no --with-gif=no --with-ogdi=no CXXFLAGS="-fpermissive -Wno-narrowing"
+To be verified:
+- sudo apt install linbtirpc-dev
+- sudo ln -s /usr/include/tirpc/rpc/* /usr/include/rpc/ (can also be fixed by adding include directory to build)
+- sudo ln -s /usr/include/tirpc/netconfig.h /usr/include/
